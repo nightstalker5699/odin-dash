@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <span class="text1"><svg xmlns="http://www.w3.org/2000/svg" style="height:50px;width:50px"viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg></span>
+            <span class="text2">Dashboard</span>
+        </div>
+        <ul>
+            <li>
+                <span class="text"><svg style="height:2rem;width:2rem"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>home-circle-outline</title><path d="M12 20C7.6 20 4 16.4 4 12S7.6 4 12 4 20 7.6 20 12 16.4 20 12 20M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M11 14H13V17H16V12H18L12 7L6 12H8V17H11V14" /></svg></span>
+                <span class="text">Home</span>
+            </li>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg" style="height:2rem;width:2rem" viewBox="0 0 24 24"><title>account-box-outline</title><path d="M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M16.5,16.25C16.5,14.75 13.5,14 12,14C10.5,14 7.5,14.75 7.5,16.25V17H16.5M12,12.25A2.25,2.25 0 0,0 14.25,10A2.25,2.25 0 0,0 12,7.75A2.25,2.25 0 0,0 9.75,10A2.25,2.25 0 0,0 12,12.25Z" /></svg></span>
+                <span class="text">Profile</span>
+            </li>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg" style="height:2rem;width:2rem" viewBox="0 0 24 24"><title>message</title><path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z" /></svg></span>
+                <span class="text">Messages</span>
+            </li>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg" style="height:2rem;width:2rem"viewBox="0 0 24 24"><title>clock-outline</title><path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z" /></svg></span>
+                <span class="text">History</span>
+            </li>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg"  style="height:2rem;width:2rem" viewBox="0 0 24 24"><title>note-multiple</title><path d="M16,9H21.5L16,3.5V9M7,2H17L23,8V18A2,2 0 0,1 21,20H7C5.89,20 5,19.1 5,18V4A2,2 0 0,1 7,2M3,6V22H21V24H3A2,2 0 0,1 1,22V6H3Z" /></svg></span>
+                <span class="text">Tasks</span>
+            </li>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg" style="height:2rem;width:2rem" viewBox="0 0 24 24"><title>account-group</title><path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" /></svg></span>
+                <span class="text">Communities</span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg"  style="height:2rem;width:2rem" viewBox="0 0 24 24"><title>cog</title><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg></span>
+                <span class="text">Settings</span>
+            </li>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg" style="height:2rem;width:2rem" viewBox="0 0 24 24"><title>help-circle</title><path d="M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" /></svg></span>
+                <span class="text">Support</span>
+            </li>
+            <li>
+                <span class="text"><svg xmlns="http://www.w3.org/2000/svg"style="height:2rem;width:2rem" viewBox="0 0 24 24"><title>shield-lock-outline</title><path d="M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M14.8,11V9.5C14.8,8.1 13.4,7 12,7C10.6,7 9.2,8.1 9.2,9.5V11C8.6,11 8,11.6 8,12.2V15.7C8,16.4 8.6,17 9.2,17H14.7C15.4,17 16,16.4 16,15.8V12.3C16,11.6 15.4,11 14.8,11M13.5,11H10.5V9.5C10.5,8.7 11.2,8.2 12,8.2C12.8,8.2 13.5,8.7 13.5,9.5V11Z" /></svg></span>
+                <span class="text">Privacy</span>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="header">
+        <div class="top">
+            <div class="left">
+                <button class="align"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg></button>
+                <input type="search">
+            </div>
+            <div class = "right"> 
+                <div class="rightbar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bell-ring-outline</title><path d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" /></svg></div>
+                <div class="rightbar"><img class = "img"src="https://cdn.drawception.com/drawings/815237/WPXCO9VaAa.png"  alt="cry"></div>
+                <div class="rightbar">Nightstalker5699</div>
+            </div>
+        </div>
+        <div class="bot">
+            <div>
+                <div class="rightbar"><img src="https://cdn.drawception.com/drawings/815237/WPXCO9VaAa.png" width="70" height="70" alt="cry" style="border-radius: 50%;border:2px solid black;"></div>
+                <div class="rightbar" style="vertical-align: top;"><span style="font-size: 1rem;">Hi there,</span> <br>Nightstalker5699</div>
+            </div>
+            <div class="botright">
+                <div class="btncontainer"><button class = "btn">new</button></div>
+                <div class="btncontainer"><button class = "btn">upload</button></div>
+                <div class="btncontainer"><button class = "btn">share</button></div>
+            </div>
+        </div>
+    </div>
+    <div class = "content">
+        <div class="box">
+            <span style="display:block;color:black;font-size: 1.5rem;font-weight: bold;">Your Project</span>
+            <div class="blogs">
+                <div class="item">
+                    <div class="itemTOP">
+                        <span class="head">super cool project</span>
+                        <span class="sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, unde accusamus eveniet reprehenderit  nihil magnam sapiente praesentium nostrum iste beatae.</span>
+                    </div>
+                    <div class="itemBOT">
+                    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                            </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="itemTOP">
+                        <span class="head">super cool project</span>
+                        <span class="sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, unde accusamus eveniet reprehenderit  nihil magnam sapiente praesentium nostrum iste beatae.</span>
+                    </div>
+                    <div class="itemBOT">
+                    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                            </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemTOP">
+                        <span class="head">super cool project</span>
+                        <span class="sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, unde accusamus eveniet reprehenderit  nihil magnam sapiente praesentium nostrum iste beatae.</span>
+                    </div>
+                    <div class="itemBOT">
+                    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                            </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemTOP">
+                        <span class="head">super cool project</span>
+                        <span class="sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, unde accusamus eveniet reprehenderit  nihil magnam sapiente praesentium nostrum iste beatae.</span>
+                    </div>
+                    <div class="itemBOT">
+                    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                            </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemTOP">
+                        <span class="head">super cool project</span>
+                        <span class="sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, unde accusamus eveniet reprehenderit  nihil magnam sapiente praesentium nostrum iste beatae.</span>
+                    </div>
+                    <div class="itemBOT">
+                    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                            </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemTOP">
+                        <span class="head">super cool project</span>
+                        <span class="sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, unde accusamus eveniet reprehenderit  nihil magnam sapiente praesentium nostrum iste beatae.</span>
+                    </div>
+                    <div class="itemBOT">
+                    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="anno">
+            <div>
+                <span style="display:block;color:black;font-size: 1.5rem;font-weight: bold;margin-bottom: 20px;">Announcements</span>
+                <div class="TOP">
+                    <div style="border-bottom: 2px solid gray;">
+                        <span class="TOPtext">Site Maintenance</span>
+                        <span class="TOPsub"> Lorem ipsum dolor sit amet sad kjfg askld asdf. sadsd </span>
+                    </div>
+                    <div style="margin-top: 10px;border-bottom: 2px solid gray;">
+                        <span class="TOPtext">Community Share Day</span>
+                        <span class="TOPsub"> Lorem ipsum dolor sit amet consectetur . </span>
+                    </div>
+                     <div style="margin-top: 10px;">
+                        <span class="TOPtext">Updated Privacy Policy</span>
+                        <span class="TOPsub"> Lorem ipsum dolor. asdasda wads   fdwad sadsd. </span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span  style="display:block;color:black;font-size: 1.5rem;font-weight: bold;margin-bottom: 20px;">Trending</span>
+                <div class="BOT">
+                    <div class="BOTitem">
+                        <div><img class="img"src="data:image/jpeg;base64,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" alt=""></div>
+                        <div class="suii">
+                            <span class="name">@eren Yeager</span>
+                            <span class="nickname"> Peace Maker</span>
+                        </div>
+                    </div>
+                    <div class="BOTitem">
+                        <div><img class="img"src="https://pbs.twimg.com/profile_images/1631721849385263110/Ucj4sLGL_400x400.jpg" alt=""></div>
+                        <div class="suii">
+                            <span class="name">@levi ackerman</span>
+                            <span class="nickname"> Fidge Spinner</span>
+                        </div>
+                    </div>
+                    <div class="BOTitem">
+                        <div><img class="img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqMvA9ZfwNEgkjK2OwVajfxUz1wPrE38CAcw&usqp=CAU" alt=""></div>
+                        <div class="suii">
+                            <span class="name">@hange Zoë</span>
+                            <span class="nickname"> Femboy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
